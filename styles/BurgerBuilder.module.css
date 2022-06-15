@@ -1,0 +1,38 @@
+.container {
+   height: 100%;
+   width: 75%;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.buttons {
+   padding: 10px;
+   margin-top: 20px;
+   width: 50%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.order {
+   cursor: pointer;
+   font-size: 20px;
+   color: white;
+   padding: 5px 15px;
+   border-radius: 20px;
+   transition: all 200ms ease-in-out;
+   background-color: brown;
+   box-shadow: 1px 1px 8px rgba(128, 128, 128, 0.614);
+}
+
+.order:hover {
+   transform: scale(1.098);
+}
+
+.order:active {
+   background-color: green;
+}

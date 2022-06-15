@@ -1,0 +1,103 @@
+.backcontainer {
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   top: 0px;
+   display: flex;
+   background-color: rgba(252, 213, 129, 0.224);
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   /* position: absolute;
+   top: 30vh;
+   left: 35vw; */
+   width: 50vw;
+   display: flex;
+   border-radius: 20px;
+   flex-direction: column;
+   /* justify-content: space-between; */
+   align-items: center;
+   background-color: black;
+   padding: 5px;
+   animation: slide 200ms ease-in;
+}
+
+@keyframes slide {
+   0% {
+      transform: translateY(-1000px);
+   }
+
+   30% {
+      transform: translateY(10px);
+   }
+
+   100% {
+      transform: translateY(100px);
+   }
+}
+
+.p2 {
+   font-size: 20px;
+   margin: 4px;
+   text-transform: capitalize;
+}
+
+
+.x {
+   margin-top: 20px;
+   border-bottom: 6px double yellow;
+}
+
+.ingredDiv {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   /* flex-wrap: wrap; */
+   justify-content: space-between;
+   align-items: center;
+}
+
+.ingredDiv::-webkit-scrollbar {
+   display: none;
+}
+
+
+
+.ingred {
+   overflow: scroll;
+   font-size: 20px;
+   margin: -20px;
+   overflow: hidden;
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.ingred::-webkit-scrollbar {
+   display: none;
+}
+
+.buttons {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.confirm {
+   background-color: brown;
+   padding: 5px 10px;
+   margin: 10px;
+   cursor: pointer;
+   border-radius: 20px;
+}
+
+.confirm:active {
+   background-color: green;
+}
+
+.confirm:hover {
+   transform: scale(1.09);
+}

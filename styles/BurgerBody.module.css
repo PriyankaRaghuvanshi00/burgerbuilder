@@ -1,0 +1,10 @@
+.container {
+   overflow-y: scroll;
+   /* background-color: black; */
+   width: 60vw;
+   height: 70vh;
+}
+
+.container::-webkit-scrollbar {
+   display: none;
+}

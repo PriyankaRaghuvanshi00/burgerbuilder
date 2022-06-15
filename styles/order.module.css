@@ -1,0 +1,62 @@
+.container {
+   background-color: black;
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.inputs {
+   max-width: 100%;
+   display: flex;
+   width: 30%;
+   margin: 10px;
+   justify-content: space-between;
+}
+
+.title {
+   font-size: 19px;
+
+}
+
+.input {
+   color: black !important;
+}
+
+.input:focus {
+   outline: none;
+}
+
+
+.buttons {
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 30%;
+}
+
+.order {
+   font-size: 19px;
+   background-color: brown;
+   padding: 5px 10px;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.detailh {
+   font-size: 25px;
+   font-weight: 600;
+   margin-bottom: 20px;
+   border-bottom: 10px double yellow;
+}
+
+.order:hover {
+   transform: scale(1.09);
+}
+
+.order:active {
+   background-color: green;
+}

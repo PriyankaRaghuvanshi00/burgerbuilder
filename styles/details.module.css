@@ -1,0 +1,122 @@
+.container {
+   width: 100vw;
+   height: 100vh;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.h1 {
+   font-size: 25px;
+   font-weight: 600;
+   letter-spacing: 0.56px;
+   overflow: hidden;
+   border-bottom: 10px double yellow;
+}
+
+.button {
+   margin: 10px;
+   cursor: pointer;
+   padding: 5px 10px;
+   border-radius: 20px;
+   font-size: 20px;
+   overflow: hidden;
+   background-color: brown;
+}
+
+.button:hover {
+   transform: scale(1.09);
+}
+
+.orders {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   overflow: scroll;
+
+}
+
+.orders::-webkit-scrollbar {
+   display: none;
+}
+
+.totalprice {
+   width: 100%;
+   text-align: center;
+   font-weight: 600;
+   font-size: 19px;
+}
+
+.oldorder {
+   margin: 10px;
+   display: flex;
+   max-width: 400px;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: flex-end;
+   justify-content: space-between;
+   border-radius: 20px;
+   padding: 10px;
+   box-shadow: 1px 1px 10px gray;
+   border: 2px solid white;
+}
+
+.ingred {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 3px;
+   color: white;
+}
+
+.p {
+   padding: 5px 10px;
+   border-radius: 20px;
+   border: 2px solid rgb(255, 153, 0);
+   letter-spacing: 0.5px;
+   margin: 5px;
+}
+
+.date {
+   font-size: 15px;
+   color: gray;
+}
+
+.backcontainer {
+   position: absolute;
+   top: 0px;
+   background-color: rgba(232, 207, 146, 0.349);
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contain {
+   width: 200px;
+   padding: 10px;
+   height: 100px;
+   border-radius: 10px;
+   font-weight: 600;
+   font-size: 20px;
+   text-align: center;
+   color: black;
+   background-color: white;
+   animation: slide 300ms ease-in-out;
+}
+
+@keyframes slide {
+   0% {
+      transform: translateY(-2000px);
+   }
+
+   40% {
+      transform: translateY(0px);
+   }
+
+   100% {
+      transform: translateY(100px);
+   }
+
+}
